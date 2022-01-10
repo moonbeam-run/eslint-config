@@ -1,0 +1,28 @@
+{
+  "name": "@moonbeam/eslint-config",
+  "version": "0.0.0",
+  "description": "Moonbeam shared ESLint config",
+  "author": "Aaron Godin <godinaaweb@gmail.com>",
+  "homepage": "https://github.com/moonbeam-run/moonbeam#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonbeam-run/moonbeam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moonbeam-run/moonbeam/issues"
+  },
+  "files": [
+    "index.js",
+    "prettier.json"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  }
+}
